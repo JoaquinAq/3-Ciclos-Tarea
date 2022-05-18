@@ -15,14 +15,18 @@ document.getElementById("app").innerHTML = `
 function parImpar(): string {
   console.clear();
 
-  let num1: number | null = Number(prompt(`Ingrese un número`));
+  let num1: number | null = 0;
+
+  while (num1 === 0) {
+    num1 = Number(prompt(`Ingrese un número distinto de cero`));
+  }
 
   if (num1 % 2 === 0) {
     console.log(`El número ${num1} es par`);
   } else {
     console.log(`El número ${num1} es impar`);
   }
-  console.log("End of algorithm");
+  console.log("---End of algorithm---");
 }
 
 function sumaEntreNumeros(): string {
