@@ -2,8 +2,8 @@
 Resolución de ejercicios propuestos en la clase del Viernes 29-04
 
 <br> 3.Ciclos
-<br>
 <br> Resolución de ejercicios propuestos
+<br>
 <br> A-Eureka 
 <br> B-Tablas de multiplicación
 <br> C-Suma entre números
